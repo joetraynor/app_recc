@@ -39,7 +39,7 @@ function storeImageCooking () {
   var cookingElement = document.getElementById('cookingImg');
   cookingElement.src = cookingapp;
   array.push(cookingapp);
-  cookingElement.style.border="8px solid black";
+  cookingElement.style.border="8px solid white";
   cookingElement.src = cooking;
 }
 
@@ -47,7 +47,7 @@ function storeImageFashion () {
   var fashionElement = document.getElementById('fashionImg');
   fashionElement.src = fashionapp;
   array.push(fashionapp);
-  fashionElement.style.border="8px solid black";
+  fashionElement.style.border="8px solid white";
   fashionElement.src = fashion;
 }
 
@@ -55,7 +55,7 @@ function storeImageSport () {
   var sportElement = document.getElementById('sportImg');
   sportElement.src = sportapp;
   array.push(sportapp);
-  sportElement.style.border="8px solid black";  
+  sportElement.style.border="8px solid white";  
   sportElement.src = sport;
 }
 
@@ -63,7 +63,7 @@ function storeImageMusic () {
   var musicElement = document.getElementById('musicImg');
   musicElement.src = musicapp;
   array.push(musicapp);
-  musicElement.style.border="8px solid black";  
+  musicElement.style.border="8px solid white";  
   musicElement.src = music;
 }
 
@@ -71,7 +71,7 @@ function storeImageGame () {
   var gameElement = document.getElementById('gameImg');
   gameElement.src = gameapp;
   array.push(gameapp);
-  gameElement.style.border="8px solid black";  
+  gameElement.style.border="8px solid white";  
   gameElement.src = game;
 }
 
@@ -79,7 +79,7 @@ function storeImageGPS () {
   var gpsElement = document.getElementById('gpsImg');
   gpsElement.src = gpsapp;
   array.push(gpsapp);
-  gpsElement.style.border="8px solid black";  
+  gpsElement.style.border="8px solid white";  
   gpsElement.src = gps;
 }
 
@@ -87,7 +87,7 @@ function storeImageKids () {
   var kidsElement = document.getElementById('kidsImg');
   kidsElement.src = kidsapp;
   array.push(kidsapp);
-  kidsElement.style.border="8px solid black";  
+  kidsElement.style.border="8px solid white";  
   kidsElement.src = kids;
 }
 
@@ -95,7 +95,7 @@ function storeImageExercise () {
   var exerciseElement = document.getElementById('exerciseImg');
   exerciseElement.src = exerciseapp;
   array.push(exerciseapp);
-  exerciseElement.style.border="8px solid black";  
+  exerciseElement.style.border="8px solid white";  
   exerciseElement.src = exercise;
 }
 
@@ -103,7 +103,7 @@ function storeImageDesign () {
   var designElement = document.getElementById('designImg');
   designElement.src = designapp;
   array.push(designapp);
-  designElement.style.border="8px solid black";  
+  designElement.style.border="8px solid white";  
   designElement.src = design;
 }
 
@@ -111,7 +111,7 @@ function storeImageSocial () {
   var socialElement = document.getElementById('socialImg');
   socialElement.src = socialapp;
   array.push(socialapp);
-  socialElement.style.border="8px solid black";  
+  socialElement.style.border="8px solid white";  
   socialElement.src = social;
 }
 
@@ -119,7 +119,7 @@ function storeImageStreaming () {
   var streamingElement = document.getElementById('streamingImg');
   streamingElement.src = streamingapp;
   array.push(streamingapp);
-  streamingElement.style.border="8px solid black";  
+  streamingElement.style.border="8px solid white";  
   streamingElement.src = streaming;
 }
 
@@ -127,7 +127,7 @@ function storeImageTravel () {
   var travelElement = document.getElementById('travelImg');
   travelElement.src = travelapp;
   array.push(travelapp);
-  travelElement.style.border="8px solid black";  
+  travelElement.style.border="8px solid white";  
   travelElement.src = travel;
 }
 
@@ -135,7 +135,7 @@ function storeImageVideoCall () {
   var videocallElement = document.getElementById('videocallImg');
   videocallElement.src = videocallapp;
   array.push(videocallapp);
-  videocallElement.style.border="8px solid black";  
+  videocallElement.style.border="8px solid white";  
   videocallElement.src = videocall;
 }
 
@@ -143,7 +143,7 @@ function storeImageFamilyHol () {
   var familyholElement = document.getElementById('familyholImg');
   familyholElement.src = familyholapp;
   array.push(familyholapp);
-  familyholElement.style.border="8px solid black";  
+  familyholElement.style.border="8px solid white";  
   familyholElement.src = familyhol;
 }
 
@@ -151,7 +151,7 @@ function storeImageLifestyle () {
   var lifestyleElement = document.getElementById('lifestyleImg');
   lifestyleElement.src = lifestyleapp;
   array.push(lifestyleapp);
-  lifestyleElement.style.border="8px solid black";  
+  lifestyleElement.style.border="8px solid white";  
   lifestyleElement.src = lifestyle;
 }
 
@@ -159,7 +159,7 @@ function storeImageFinance () {
   var financeElement = document.getElementById('financeImg');
   financeElement.src = financeapp;
   array.push(financeapp);
-  financeElement.style.border="8px solid black";  
+  financeElement.style.border="8px solid white";  
   financeElement.src = finance;
 }
 
@@ -167,12 +167,12 @@ function storeImageShopping () {
   var shoppingElement = document.getElementById('shoppingImg');
   shoppingElement.src = shoppingapp;
   array.push(shoppingapp);
-  shoppingElement.style.border="8px solid black";  
+  shoppingElement.style.border="8px solid white";  
   shoppingElement.src = shopping;
 }
 
 function changeImage() {
-  // document.getElementsByTagName('img').each.style.border="0px solid black";
+  // document.getElementsByTagName('img').each.style.border="0px solid white";
   document.getElementById('cookingImg').src = array[0];
   document.getElementById('fashionImg').src = array[1];
   document.getElementById('sportImg').src = array[2];
